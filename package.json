@@ -1,0 +1,26 @@
+{
+  "name": "lilac-carbon",
+  "displayName": "Lilac Carbon",
+  "description": "A delightful, cold theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lilac Carbon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lilac Carbon Dark-color-theme.json"
+      },
+      {
+        "label": "Lilac Carbon Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lilac Carbon Light-color-theme.json"
+      }
+    ]
+  }
+}
