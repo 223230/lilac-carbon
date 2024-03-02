@@ -1,10 +1,15 @@
 {
-  "name": "lilac-carbon",
-  "displayName": "Lilac Carbon",
+  "name": "lilac-moon",
+  "displayName": "Lilac Moon",
   "description": "A delightful, cold theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "223230",
   "engines": {
     "vscode": "^1.86.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/223230/lilac-moon"
   },
   "categories": [
     "Themes"
@@ -12,15 +17,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lilac Carbon Dark",
+        "label": "Lilac Moon Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lilac Carbon Dark-color-theme.json"
+        "path": "./themes/Lilac Moon Dark-color-theme.json"
       },
       {
-        "label": "Lilac Carbon Light",
+        "label": "Lilac Moon Light",
         "uiTheme": "vs",
-        "path": "./themes/Lilac Carbon Light-color-theme.json"
+        "path": "./themes/Lilac Moon Light-color-theme.json"
       }
     ]
-  }
+  },
+  "galleryBanner": {
+    "color": "#15171c",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "license": "GPL-3.0-or-later"
 }
